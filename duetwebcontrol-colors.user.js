@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Duet Web Control Colors userscript
+// @name         Duet Web Control Colors
 // @description  Modifies the toolbar color on the Duet Web Control interface
 // @namespace    https://joshenders.com
 // @version      v1.0.1
