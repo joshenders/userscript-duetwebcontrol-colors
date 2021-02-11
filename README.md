@@ -8,13 +8,15 @@ Me neither! But my friend Gerard did and so here we are!
 
 This is a [Tampermonkey](https://www.tampermonkey.net) userscript which modifies the toolbar color of the [Duet Web Control interface](https://github.com/Duet3D/DuetWebControl).
 
+<img src="/Users/jenders/src/userscript-duetwebcontrol-colors/doc/screenshot.png" alt="screenshot" style="zoom:50%;" />
+
 ## Installation
 
 1. If you're new to userscripts, start by installing Tampermonkey. Here's the [version for Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en).
 
-2. Next, click [duetwebcontrol-colors.user.js](duetwebcontrol-colors.user.js) and then click "Raw". If Tampermonkey is installed correctly, it will automatically redirect you to a screen to install the script. By default, the script does nothing until you configure it in the next step.
+2. Next, click [duetwebcontrol-colors.user.js](duetwebcontrol-colors.user.js) and then click **Raw**. If Tampermonkey is installed correctly, it will automatically redirect you to a screen to install the script. Click **Install**. By default, the script does nothing until you configure it in the following steps.
 
-3. In Tampermonkey, modify the script with your preferred printer names and [desired colors](https://htmlcolorcodes.com). Just remove the leading `//` and change the example names to your printers' hostnames. For best results, you should be using static DHCP for your printers.
+3. Open the Tampermonkey extension dashboard. Click the **Edit** button for **Duet Web Control Colors** under the **Actions** column. In the editor, modify the script with your preferred printer names and [desired colors](https://htmlcolorcodes.com). Just remove the leading `//` and change the example names to your printers' hostnames. For best results, you should be using static DHCP for your printers.
 
    ```javascript
    const config = {
@@ -29,6 +31,8 @@ This is a [Tampermonkey](https://www.tampermonkey.net) userscript which modifies
    ```javascript
    // @match        *://*.lan/*
    ```
+
+5. Click **Save** and you're all done.
 
 ## Support
 
