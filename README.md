@@ -8,7 +8,7 @@ Me neither! But my friend Gerard did and so here we are!
 
 This is a [Tampermonkey](https://www.tampermonkey.net) userscript which modifies the toolbar color of the [Duet Web Control interface](https://github.com/Duet3D/DuetWebControl).
 
-<img src="/Users/jenders/src/userscript-duetwebcontrol-colors/doc/screenshot.png" alt="screenshot" style="zoom:50%;" />
+<img src="doc/screenshot.png" alt="screenshot" style="zoom:50%;" />
 
 ## Installation
 
