@@ -10,11 +10,11 @@ This is a [Tampermonkey](https://www.tampermonkey.net) userscript which modifies
 
 ## Installation
 
-1. If you're new to userscripts, start by installing Tampermonkey, here's the [version for Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en).
+1. If you're new to userscripts, start by installing Tampermonkey. Here's the [version for Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en).
 
 2. Next, click [duetwebcontrol-colors.user.js](duetwebcontrol-colors.user.js) and then click "Raw". If Tampermonkey is installed correctly, it will automatically redirect you to a screen to install the script. By default, the script does nothing until you configure it in the next step.
 
-3. In Tampermonkey, modify the script with your preferred printer names and [desired colors](https://htmlcolorcodes.com). Just remove the leading `//` and change the example names to your printers. For best results, you should be using a static IP for your printer.
+3. In Tampermonkey, modify the script with your preferred printer names and [desired colors](https://htmlcolorcodes.com). Just remove the leading `//` and change the example names to your printers' hostnames. For best results, you should be using static DHCP for your printers.
 
    ```javascript
    const config = {
